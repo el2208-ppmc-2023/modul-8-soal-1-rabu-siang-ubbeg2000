@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "4\r\n4 5 6 5\r\n1 2 7 8\r\n7 13 8 9\r\n14 12 11 10",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "7\r\n5 6 7 2 1 4 30\r\n6 7 8 7 3 2 8\r\n7 10 9 5 4 5 7\r\n8 11 12 13 2 6 5\r\n9 10 13 14 1 7 4\r\n12 11 54 15 5 3 3\r\n23 22 21 16 17 1 2",
+      "output": "13",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "8\r\n43 44 45 46 3 4 8 1\r\n64 65 67 47 2 5 6 2\r\n63 50 49 48 49 50 7 3\r\n62 51 52 53 52 51 52 4\r\n61 52 55 54 53 109 53 5\r\n60 53 54 55 100 107 108 6\r\n59 60 55 56 101 106 105 7\r\n58 57 56 57 102 103 104 7",
+      "output": "23",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "4\r\n1 2 3 4\r\n8 7 6 5\r\n9 10 11 12\r\n16 15 14 13",
+      "output": "16",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "2\r\n4 6\r\n5 6",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "2\r\n3 5\r\n7 9",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "1\r\n4",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "9\r\n1 2 3 4 5 6 7 8 9\r\n32 33 34 35 36 37 38 39 10\r\n31 56 57 58 59 60 61 40 11\r\n30 55 72 73 74 75 62 41 12\r\n29 54 71 80 81 76 63 42 13\r\n28 53 70 79 78 77 64 43 14\r\n27 52 69 68 67 66 65 44 15\r\n26 51 50 49 48 47 46 45 16\r\n25 24 23 22 21 20 19 18 17",
+      "output": "81",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "5\r\n3 4 5 6 9\r\n10 5 6 7 8\r\n9 8 7 8 30\r\n17 15 15 9 10\r\n15 14 13 12 11",
+      "output": "13",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "4\r\n1 2 3 6\r\n1 5 4 5\r\n2 6 5 6\r\n42 7 8 9",
+      "output": "9",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
